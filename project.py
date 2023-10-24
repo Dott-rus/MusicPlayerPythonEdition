@@ -17,7 +17,7 @@ image_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), ".")  # �
 
 app = customtkinter.CTk()  # создаем окно CTk, как и обычное окно Tk
 app.geometry("505x350")  # устанавливаем размеры окна
-app.title('MusicPlayer (ТОЛЬКО ДЛЯ ПРЕЗЕНТАЦИИ) © Антон')  # устанавливаем заголовок окна
+app.title('MusicPlayer')  # устанавливаем заголовок окна
 
 # создаем иконки для кнопок
 PlayIcon = customtkinter.CTkImage(Image.open(os.path.join(image_path, "play.png")))
